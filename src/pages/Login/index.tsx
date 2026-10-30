@@ -54,6 +54,7 @@ export default function LoginScreen() {
       <View style={styles.boxTop}>
         <Image source={Logo} style={styles.logo} />
         <Text style={styles.textTop}>Pokédex</Text>
+        <Text style={{ color: 'red' }}>Turma DS  ETE </Text>
       </View>
       
       <View style={styles.boxMid}>
@@ -68,6 +69,7 @@ export default function LoginScreen() {
           style={styles.textInput}
         />
       </View>
+      <Text> Você digitou: {email} ({email.length} letras) </Text>
       <Text style={styles.titleInput}>Senha</Text>      
       <View style={styles.boxInput}>
       <TextInput
@@ -98,4 +100,3 @@ export default function LoginScreen() {
     </View>
   );
 };
-

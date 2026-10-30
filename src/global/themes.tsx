@@ -5,7 +5,7 @@ const lightTheme = {
     // Paleta inspirada na Pokédex
     primary: '#E3350D', // vermelho Pokédex
     primaryDark: '#B8200A',
-    accent: '#FFCB05', // amarelo Pokédex
+    accent: '#4FC3F7', // amarelo Pokédex
     accentDark: '#D4A108',
     background: '#F5F5F5',
     surface: '#FFFFFF',

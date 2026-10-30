@@ -9,7 +9,7 @@ import { fetchPokemonListPage, type PokemonListItemUI } from '../../services/pok
 import { getFavoriteIds, getFavoritePokemons } from '../../services/favoritesStorage';
 import { getLastViewedPokemons, type LastViewedPokemon } from '../../services/lastViewedStorage';
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 20;
 
 const TYPE_COLORS: Record<string, string> = {
   normal: '#A8A77A',
@@ -272,4 +272,3 @@ export default function PokemonListScreen() {
     </View>
   );
 };
-
