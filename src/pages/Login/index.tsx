@@ -44,8 +44,8 @@ export default function LoginScreen() {
       setErrorMessage('Ocorreu um erro ao validar o login');
     } finally {
       setIsLoading(false);
-    }
-  };
+    }                         
+  }; 
 
   const isButtonDisabled = isLoading || !email || !password;
 
@@ -54,7 +54,7 @@ export default function LoginScreen() {
       <View style={styles.boxTop}>
         <Image source={Logo} style={styles.logo} />
         <Text style={styles.textTop}>Pokédex</Text>
-        <Text style={{ color: 'red' }}>Turma DS  ETE </Text>
+        <Text style={{ color: 'red' }}>Erick - DS ETE</Text>
       </View>
       
       <View style={styles.boxMid}>
